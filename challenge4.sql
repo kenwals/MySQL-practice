@@ -3,4 +3,4 @@ INNER JOIN PlaylistTrack ON Playlist.PlaylistId = PlaylistTrack.PlaylistId
 JOIN Track ON PlaylistTrack.TrackId = Track.TrackId
 JOIN Album ON Track.AlbumId = Album.AlbumId
 JOIN Artist on Album.ArtistId = Artist.ArtistId
-WHERE Playlist.Name = 'Grunge'; 3
+WHERE Playlist.Name = 'Grunge';
